@@ -22,25 +22,23 @@ This repository contains analysis on data about energy burnt during exercise in 
 
 ---
 ## files
-
-
-    * README.md 
+* README.md 
     you can find about the problem, what I did for my project, instructions about executing it, and files of the project.
-    * Data
+* Data
        There are two ```csv``` files. ```calories.csv``` and ```exercise.csv```. These files complete each other. ```exercise.csv``` contains features and ```calories.csv``` contains target.
-    * Notebook (suggested name - notebook.ipynb) with
+* Notebook (suggested name - notebook.ipynb) with
       Here you can see how I loaded the files, the EDA( exploring the data, cleaning, featue combinations, finding correlation,ploting distribution) process, applying different models to data( Linear Regression, Polynomial Regression, Random Forest,           XGBoost) and choosing the best one(Polynimial Regression) and applying it to data to find the most important featue. Then I saved data and model for containerizing them in a ```model.bin``` file.
-    * Script train.py (suggested name)
+* Script train.py (suggested name)
         Training the final model
         Saving it to a file (e.g. pickle) or saving it with specialized software (BentoML)
-    * Script predict.py (suggested name)
+* Script predict.py (suggested name)
         Loading the model
         Serving it via a web service (with Flask or specialized software - BentoML, KServe, etc)
-    * Files with dependencies
+* Files with dependencies
         Pipenv and Pipenv.lock if you use Pipenv
         or equivalents: conda environment file, requirements.txt or pyproject.toml
-    *Dockerfile for running the service
-    * Deployment
+*Dockerfile for running the service
+* Deployment
         URL to the service you deployed or
         Video or image of how you interact with the deployed service
 
