@@ -34,7 +34,7 @@ This repository contains analysis on data about energy burnt during exercise in 
         The code for loading the model and serving it, using an instance of fetures, via a web service(using Falsk)
 * Files with dependencies
         ```Pipenv``` and ```Pipenv.lock```
-*```dockerfile``` for running the service
+* ```dockerfile``` for running the service
 * Deployment
        image of how I served the model using ```gunicorn``` inside ```docker``` and communicating with it through ```predict-test.py```
 
